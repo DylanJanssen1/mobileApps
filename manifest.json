@@ -1,19 +1,19 @@
 {
-  "short_name": "Weather",
-  "name": "Weather: Do I need an umbrella?",
+  "short_name": "Memes",
+  "name": "Memes for Graafschapcollege",
   "icons": [
     {
-      "src": "/images/rocket.svg",
+      "src": "/images/icons-vector.svg",
       "type": "image/svg+xml",
       "sizes": "512x512"
     },
     {
-      "src": "/images/rocket.svg",
+      "src": "/images/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/rocket.svg",
+      "src": "/images/icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
