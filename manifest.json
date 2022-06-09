@@ -8,12 +8,12 @@
       "sizes": "512x512"
     },
     {
-      "src": "/images/smile.png",
+      "src": "/images/twemoji.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/smile.png",
+      "src": "/images/twemoji.png",
       "type": "image/png",
       "sizes": "512x512"
     }
