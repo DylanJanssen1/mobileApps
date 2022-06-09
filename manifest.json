@@ -12,6 +12,11 @@
       "type": "image/png"
     },
     {
+      "src": "/icons/twemoji-284.png",
+      "sizes": "284x284",
+      "type": "image/png"
+    },
+    {
       "src": "/icons/twemoji-388.png",
       "sizes": "388x388",
       "type": "image/png"
