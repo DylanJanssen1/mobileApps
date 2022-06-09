@@ -5,15 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
-
-    <script>
-        window.addEventListener('load', () => {
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('service-worker.js')
-            }
-        });
-    </script>
-
     <!-- Material.io bestanden (CSS & Font/icons)-->
     <!-- Uitleg werking componenents: https://material.io/components?platform=web -->
     <!-- Demo van components:         https://material-components.github.io/material-components-web-catalog/#/ -->
@@ -31,7 +22,13 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="GCMemes PWA">
     <link rel="apple-touch-icon" href="images/smile.png">
-
+    <script>
+        window.addEventListener('load', () => {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('service-worker.js')
+            }
+        });
+    </script>
     <style>body {
         margin: 0;
     }</style>
