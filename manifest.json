@@ -7,22 +7,22 @@
   "theme_color": "#018786",
   "icons": [
     {
-      "src": "/icons/twemoji-142.png",
+      "src": "icons/twemoji-142.png",
       "sizes": "142x142",
       "type": "image/png"
     },
     {
-      "src": "/icons/twemoji-284.png",
+      "src": "icons/twemoji-284.png",
       "sizes": "284x284",
       "type": "image/png"
     },
     {
-      "src": "/icons/twemoji-388.png",
+      "src": "icons/twemoji-388.png",
       "sizes": "388x388",
       "type": "image/png"
     },
     {
-      "src": "/icons/twemoji-600.png",
+      "src": "icons/twemoji-600.png",
       "sizes": "600x600",
       "type": "image/png"
     }

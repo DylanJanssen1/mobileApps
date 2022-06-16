@@ -119,6 +119,20 @@
             text-decoration: none;
         }
 
+        #add-form {
+            width: 90%;
+            text-align: center;
+            margin: 10px auto;
+            display: flex;
+            flex-direction: column;
+            /*justify-content: space-between;*/
+            /*align-content: space-between;*/
+        }
+
+        .form-class{
+            margin-bottom: 5px;
+        }
+
     </style>
 
     <!-- Material.io bestanden (JS en registratie componenten) -->
@@ -158,6 +172,7 @@
 <body>
 <!-- HTML web-elementen -->
 
+<!--hamburger menu-->
 <aside class="mdc-drawer mdc-drawer--modal">
     <div class="mdc-drawer__content">
         <div class="mdc-graafschapcollege">
@@ -186,6 +201,7 @@
 <div class="mdc-drawer-scrim"></div>
 <div>
 
+    <!--top bar-->
     <header class="mdc-top-app-bar">
         <div class="mdc-top-app-bar__row">
             <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
@@ -205,6 +221,7 @@
         </div>
     </header>
 
+    <!--Tab selector-->
     <main class="mdc-top-app-bar--fixed-adjust" id="main-content">
         <div class="mdc-tab-bar" role="tablist">
             <div class="mdc-tab-scroller">
@@ -249,6 +266,7 @@
             </div>
         </div>
 
+        <!--Images-->
         <ul class="mdc-image-list mdc-image-list--masonry my-masonry-image-list">
             <li class="mdc-image-list__item memes">
                 <img class="mdc-image-list__image" src="images/ArrowInTheKnee.jpg" alt="PWA">
@@ -379,6 +397,7 @@
         </div>
     </main>
 
+    <!--Bottom bar-->
     <footer>
         <div class="mdc-tab-bar" role="tablist">
             <div class="mdc-tab-scroller">
@@ -410,6 +429,8 @@
             </div>
         </div>
     </footer>
+
+    <!--Meme out of view-->
     <section class="sheet hidden sheet-out-of-view sheet-meme" id="sheet-meme">
 
         <header class="mdc-top-app-bar mdc-top-app-bar--fixed mdc-top-app-bar-meme">
@@ -475,6 +496,7 @@
 
     </section>
 
+    <!--Add meme-->
     <section class="sheet hidden sheet-out-of-view sheet-meme" id="sheet-form">
 
         <header class="mdc-top-app-bar mdc-top-app-bar--fixed mdc-top-app-bar-meme">
@@ -497,17 +519,25 @@
         </header>
 
         <main class="mdc-top-app-bar--fixed-adjust main-content" id="main-form">
-            <!--            <form>-->
-            <!--                <label for="meme-title">Title</label>-->
-            <!--                <input type="text" id="meme-title">-->
-            <!--            </form>-->
-            <label class="mdc-text-field mdc-text-field--filled">
-                <span class="mdc-text-field__ripple"></span>
-                <span class="mdc-floating-label" id="my-label-id">Title</span>
-                <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" maxlength="30">
-                <span class="mdc-line-ripple"></span>
-                <span class="mdc-text-field-character-counter">0 / 30</span>
-            </label>
+            <div id="add-form">
+                <!--            <form>-->
+                <!--                <label for="meme-title">Title</label>-->
+                <!--                <input type="text" id="meme-title">-->
+                <!--            </form>-->
+                <label class="mdc-text-field mdc-text-field--filled form-class">
+                    <span class="mdc-text-field__ripple"></span>
+                    <span class="mdc-floating-label" id="my-label-id">Title</span>
+                    <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" maxlength="30">
+                    <span class="mdc-line-ripple"></span>
+                    <span class="mdc-text-field-character-counter">0 / 30</span>
+                </label>
+
+                <label class="mdc-text-field mdc-text-field--filled form-class">
+                    <span class="mdc-text-field__ripple"></span>
+                    <input class="mdc-text-field__input" type="file" aria-labelledby="my-label-id">
+                    <span class="mdc-line-ripple"></span>
+                </label>
+            </div>
         </main>
 
         <footer>
